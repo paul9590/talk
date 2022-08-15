@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="200dp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:background="@drawable/layoutshape"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/BtnLogout"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="10dp"
+        android:text="로그 아웃" />
+
+    <Button
+        android:id="@+id/BtnRes"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:text="대화 내용 삭제" />
+
+
+    <Button
+        android:id="@+id/BtnBack"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="30dp"
+        android:text="뒤로 가기" />
+
+</LinearLayout>
